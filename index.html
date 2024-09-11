@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobe House | CIT 212</title>
+    <style>
+        .wrapper {
+            border: 0px;
+            padding: 0px;
+            width: 100%;
+            position: fixed;
+        }
+
+        .house {
+            width: 596px;
+            height: 396px;
+            border: 2px solid black;
+            background-color: rgb(255, 248, 213);
+            position: absolute;
+        }
+        
+        /* Window containter and elements */
+        .window {
+            width: 200px;
+            height: 220px;
+            /* background-color: aqua; */
+            position: relative;
+            top: 25px;
+            left: 25px;
+        }
+
+        .wframeu {
+            width: 196px;
+            height: 26px;
+            border: 2px solid black;
+            background-color: rgb(160, 106, 74);
+            position: absolute;
+            top: 10px;
+            z-index: 2;
+        }
+
+        .wframeb {
+            width: 196px;
+            height: 26px;
+            border: 2px solid black;
+            background-color: rgb(160, 106, 74);
+            position: absolute;
+            top: 190px;
+            z-index: 2;
+        }
+        
+        .wframel {
+            width: 36px;
+            height: 216px;
+            border: 2px solid black;
+            background-color: rgb(160, 106, 74);
+            position: absolute;
+            left: 4px;
+            z-index: 1;
+        }
+
+        .wframer {
+            width: 36px;
+            height: 216px;
+            border: 2px solid black;
+            background-color: rgb(160, 106, 74);
+            position: absolute;
+            right: 4px;
+            z-index: 1;
+        }
+
+        .glass {
+            background-color: rgb(174, 222, 243);
+            width: 192px;
+            height: 210px;
+            position: absolute;
+            top: 10px;
+            left: 4px;
+        }
+
+        /* Door container and elements */
+        .door {
+            width: 280px;
+            height: 320px;
+            /* background-color: brown; */
+            position: relative;
+            left: 300px;
+            bottom: 142px;
+
+        }
+
+        .dframeu {
+            width: 276px;
+            height: 56px;
+            border: 2px solid black;
+            background-color: rgb(160, 106, 74);
+            position: absolute;
+            z-index: 2;
+        }
+
+        .dframel {
+            width: 46px;
+            height: 316px;
+            border: 2px solid black;
+            background-color: rgb(160, 106, 74);
+            position: absolute;
+            left: 20px;
+            z-index: 1;
+        }
+
+        .dframer {
+            width: 46px;
+            height: 316px;
+            border: 2px solid black;
+            background-color: rgb(160, 106, 74);
+            position: absolute;
+            right: 20px;
+            z-index: 1;
+        }
+
+        .panel {
+            width: 130px;
+            height: 250px;
+            background-color: darkred;
+            border: 5px solid darkorange;
+            position: absolute;
+            top: 60px;
+            left: 70px;
+        }
+
+        .innerpannel {
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="house">
+            <div class="window">
+                <div class="wframeu"></div>
+                <div class="wframeb"></div>
+                <div class="wframel"></div>
+                <div class="wframer"></div>
+                <div class="glass"></div>
+            </div>
+            <div class="door">
+                <div class="dframeu"></div>
+                <div class="dframel"></div>
+                <div class="dframer"></div>
+                <div class="panel">
+                    <div class="innerpannel"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
